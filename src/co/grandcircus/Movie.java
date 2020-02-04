@@ -1,8 +1,8 @@
 package co.grandcircus;
 
 public class Movie {
-	private static String title;
-	private static String genre;
+	private String title;
+	private String genre;
 	
 	public Movie(String movieTitle, String movieGenre) {
 		title = movieTitle;
